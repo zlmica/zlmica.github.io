@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zlmica.top/"/>
-  <updated>2018-07-12T08:51:31.544Z</updated>
+  <updated>2018-07-12T08:53:14.464Z</updated>
   <id>http://zlmica.top/</id>
   
   <author>
@@ -21,15 +21,17 @@
     <link href="http://zlmica.top/2018/05/29/%E5%86%99%E4%B8%AA%E5%89%8D%E7%AB%AF%E5%8D%9A%E5%AE%A2/"/>
     <id>http://zlmica.top/2018/05/29/写个前端博客/</id>
     <published>2018-05-29T10:40:07.000Z</published>
-    <updated>2018-07-12T08:51:31.544Z</updated>
+    <updated>2018-07-12T08:53:14.464Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="如何安装node"><a href="#如何安装node" class="headerlink" title="如何安装node"></a>如何安装node</h4><h5 id="官网下载"><a href="#官网下载" class="headerlink" title="官网下载"></a>官网下载</h5><blockquote><p>下载地址：<a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a><br>进入官网，根据自己系统平台选择下载</p></blockquote><p>下载之后像安装软件一样，默认选项不用修改，一直下一步，最后安装完成。</p><p>Node安装好之后，可以在终端输入命令行查看版本检查是否安装成功。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></p><p>好了，大功告成</p>]]></content>
+    <content type="html"><![CDATA[<p>Node 的安装</p><blockquote><p>官网地址：<a href="https://nodejs.org" target="_blank" rel="noopener">https://nodejs.org</a><br>进入官网，根据自己系统平台选择下载</p></blockquote><p>下载之后像安装软件一样，默认选项不用修改，一直下一步，最后安装完成。</p><p>Node安装好之后，可以在终端输入命令行查看版本检查是否安装成功。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br></pre></td></tr></table></figure></p><p>好了，大功告成</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h4 id=&quot;如何安装node&quot;&gt;&lt;a href=&quot;#如何安装node&quot; class=&quot;headerlink&quot; title=&quot;如何安装node&quot;&gt;&lt;/a&gt;如何安装node&lt;/h4&gt;&lt;h5 id=&quot;官网下载&quot;&gt;&lt;a href=&quot;#官网下载&quot; class=&quot;headerlink&quot; 
+        &lt;p&gt;Node 的安装&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;官网地址：&lt;a href=&quot;https://nodejs.org&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://nodejs.org&lt;/a&gt;&lt;br&gt;进入官网，根据自己系统平台选择下载
       
     
     </summary>
