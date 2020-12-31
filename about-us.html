@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/lightcase.css" />
+    <link rel="stylesheet" href="assets/css/swiper.min.css" />
+
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>友好之道 - 关于我们</title>
+  </head>
+  <style>
+    .guides {
+      padding-top: 0 !important;
+    }
+
+    .desc {
+      text-align: center;
+    }
+
+    .desc small {
+      color: #999;
+    }
+  </style>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="preloader-wrapper">
+        <img src="assets/images/ajax-loader.gif" alt="preloader" />
+      </div>
+    </div>
+    <!-- Preloader -->
+    <!-- Header Section Stars Here -->
+    <header class="header-section">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg">
+            <!-- <a class="navbar-brand" href="/"
+                          ><img src="assets/images/logo/logo.png" alt="logo" />
+                          <span style="color: #fff; margin-left: 5px; font-weight: 700">友好之道 </span>
+                      </a> -->
+            <img
+              src="assets/images/logo.png"
+              style="width: 200px; cursor: pointer"
+              onclick="location.href = '/'"
+            />
+            <button class="navbar-toggler">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse show navbar-collapse">
+              <!-- <ul class="navbar-nav ml-auto menu" id="menu-list"></ul> -->
+              <ul class="navbar-nav ml-auto menu" id="menu-list1">
+                <li class="menu-item">
+                  <a class="menu-item-link" href="/index.html">首页</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a class="menu-item-link">国际服务</a>
+                  <ul class="submenu">
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=20&type=2"
+                        >出国留学</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=21&type=2"
+                        >国际职业培训</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=22&type=2"
+                        >海外就职派遣</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=23&type=2"
+                        >移民</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=24&type=2"
+                        >海外房产</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a class="menu-item-link">国内服务</a>
+                  <ul class="submenu">
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=25&type=2"
+                        >语言培训</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=51&type=2"
+                        >实习工作</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a class="menu-item-link">环球风情</a>
+                  <ul class="submenu">
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=57&type=1"
+                        >国家图鉴</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/category-list.html?category_id=58&type=1"
+                        >学员生活</a
+                      >
+                    </li>
+                    <li class="menu-item">
+                    <a
+                      class="menu-item-link"
+                      href="/category-list.html?category_id=26&type=1"
+                      >好物杂货铺</a
+                    >
+                  </li>
+                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a
+                    class="menu-item-link"
+                    href="/category-list.html?category_id=17&type=3"
+                    >新闻动态</a
+                  >
+                  <!-- <ul class="submenu">
+                                  <li class="menu-item">
+                                      <a class="menu-item-link" href="/category-list.html?category_id=27&type=3">公司动态</a>
+                                  </li>
+  
+                                  <li class="menu-item">
+                                      <a class="menu-item-link" href="/category-list.html?category_id=28&type=3">行业动态</a>
+                                  </li>
+  
+                                  <li class="menu-item">
+                                      <a class="menu-item-link" href="/category-list.html?category_id=29&type=3">国际动态</a>
+                                  </li>
+  
+                                  <li class="menu-item">
+                                      <a class="menu-item-link" href="/category-list.html?category_id=30&type=3">院校风采</a>
+                                  </li>
+                              </ul> -->
+                </li>
+                <li class="menu-item">
+                  <a class="menu-item-link" href="/service-center.html"
+                    >服务中心</a
+                  >
+                  <!-- <ul class="submenu">
+  
+                    <li class="menu-item">
+                      <a class="menu-item-link" href="/service-center.html"
+                        >常见问题</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a class="menu-item-link" href="/service-center.html"
+                        >商务合作</a
+                      >
+                    </li>
+                  </ul> -->
+                </li>
+                <li class="menu-item">
+                  <a class="menu-item-link" href="/about-us.html">关于我们</a>
+                  <!-- <ul class="submenu">
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/about-us.html"
+                        >公司简介</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/about-us.html"
+                        >职能架构</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/about-us.html"
+                        >企业资质及证书</a
+                      >
+                    </li>
+  
+                    <li class="menu-item">
+                      <a
+                        class="menu-item-link"
+                        href="/about-us.html"
+                        >联系我们</a
+                      >
+                    </li>
+                  </ul> -->
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Header Section Ends Here -->
+
+    <a href="#" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+    <!-- Page Header Section Starts Here -->
+    <section
+      class="page-header bg_img"
+      data-background="./assets/images/page-header-bg.jpg"
+    >
+      <div class="container">
+        <div class="page-header-wrapper" style="min-height: 260px;">
+          <div class="page-header-item">
+            <h2 class="page-header-title">关于我们</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Page Header Section Ends Here -->
+    <!-- About Section of About Page Starts Here -->
+    <section class="about-section style-two padding-top padding-bottom">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">公司简介</h2>
+          <span class="shape"></span>
+        </div>
+        <div class="row about-section-wrapper">
+          <div class="col-lg-6">
+            <div class="about-thumb style-two">
+              <img
+                src="assets/images/about/yh.png"
+                style="width: 80%; margin-top: 20%"
+                alt="about"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-content p-0">
+              <div class="about-section-header style-two">
+                <h2 class="title">友好之道（北京）国际文化交流有限责任公司</h2>
+                <p>
+                  友好之道（北京）国际文化交流有限公司主要从事中外文化交流合作项目，与国内外多家具有政府背景单位紧密合作。多年来与中国对外友好合作服务中心携手并进，搭建中外文化交流互动平台，并于2013年10月28日开创了“中德护士护理交流计划”项目，本项目创建背景基于李克强总理的大力支持下，中外双方签订了长期合作协议，致力于培养中国有志青年赴德学习先进的护理专业知识及服务理念，回国后实施国际化的专业理念服务中国“大健康”领域事业。公司业务范围涉及欧洲、亚洲及美洲等国际文化交流项目。
+                </p>
+                <p>
+                  友好之道作为一家国际文化交流公司，也始终把传播中华文化为使命。从公司创立至今，一贯秉持着中外友好交流的态度，将“以人为本”作为企业核心价值观，坚持走合作共赢互惠互利的发展道路；真心实意的恪守着合法合规积极发展的经营之道。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-header">
+          <h2 class="title">职能架构</h2>
+          <span class="shape"></span>
+        </div>
+        <!-- Tour Offer Section Starts Here -->
+        <section class="overview-section">
+          <div class="container-fluid p-0">
+            <div class="row m-0">
+              <div class="col-lg-12 p-0">
+                <div class="overview-right">
+                    <div class="about-thumb ">
+                      <img src="assets/images/about/yhjg.png" alt="about" />
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Tour Offer Section Ends Here -->
+        
+        <div class="section-header padding-top">
+          <h2 class="title">企业资质及证书</h2>
+          <span class="shape"></span>
+        </div>
+        <div class="row justify-content-center mb-30-none">
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-thumb">
+              <a
+                href="assets/images/about/z1.jpg"
+                data-rel="lightcase:myCollection"
+                ><img src="assets/images/about/z1.jpg" alt="gallery"
+              /></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-thumb">
+                <a
+                  href="assets/images/about/z2.jpg"
+                  data-rel="lightcase:myCollection"
+                  ><img src="assets/images/about/z2.jpg" alt="gallery"
+                /></a>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-thumb">
+                <a
+                  href="assets/images/about/z3.png"
+                  data-rel="lightcase:myCollection"
+                  ><img src="assets/images/about/z3.png" alt="gallery"
+                /></a>
+              </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section of About Page Ends Here -->
+    <!-- Tour Packages Section Starts Here -->
+    <section class="contact-section padding-top ">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="title">联系我们</h2>
+          <span class="shape"></span>
+        </div>
+        <div class="branches-section-wrapper" style="padding-top: 0">
+          <div class="row mb-30-none justify-content-center">
+            <div class="col-lg-4 col-md-6">
+              <div class="brance-item" style="padding: 30px; height: 150px;">
+                <h5 class="title">电话：</h5>
+                  <p style="color: #FF7900; font-weight: 600;">010-65283215、010-65211627</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="brance-item" style="padding: 30px; height: 150px;">
+                <h5 class="title">QQ：</h5>
+                  <p style="color: #FF7900; font-weight: 600;">1480373182</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="brance-item" style="padding: 30px; height: 150px;">
+                <h5 class="title">微信：</h5>
+                  <p style="color: #FF7900; font-weight: 600;">cscyhzd</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="brance-item" style="padding: 30px; height: 150px;">
+                <h5 class="title">地址：</h5>
+                  <p style="color: #FF7900; font-weight: 600;">北京市东城区广渠门内大街90号新裕商务大厦A810</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="brance-item" style="padding: 30px; height: 150px;">
+                <h5 class="title">邮箱：</h5>
+                  <p style="color: #FF7900; font-weight: 600;">1079576104@qq.com</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="brance-item" style="padding: 30px; height: 150px;">
+                <h5 class="title">官网：</h5>
+                  <p style="color: #FF7900;font-weight: 600;">www.youhao.net.cn</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tour Packages Section Ends Here -->
+
+
+    <div
+    style="background: url('/assets/images/wechat.png') no-repeat; background-size: cover; width: 100%; height: 400px; background-position: center;"
+    >
+    </div>
+    
+    <!-- Footer Section Starts Here -->
+    <footer class="footer-section">
+      <div class="footer-bottom align-items-center d-flex">
+        <div class="container">
+          <p class="m-0">&copy; Copyright <a href="/">友好之道</a> - 2020</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section Ends Here -->
+
+    <!-- JavaScript File Links -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/waypoint.js"></script>
+    <script src="assets/js/counterup.min.js"></script>
+    <script src="assets/js/lightcase.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
