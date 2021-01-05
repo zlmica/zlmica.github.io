@@ -117,6 +117,7 @@ $.ajax({
 
                                         </div>
                                     </div>
+                                    <!--
                                     <ul class="meta-post-one">
                                         <li>
                                             <a href="#"><i class="far fa-eye"></i> <span>24578</span>
@@ -128,10 +129,11 @@ $.ajax({
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fas fa-share-alt"></i> <span>分享</span>
+                                            <a href="#"><i class="fas fa-circle-alt"></i> <span>分享</span>
                                             </a>
                                         </li>
                                     </ul>
+                                    -->
                                 </div>
                             </div>
                         </div>
