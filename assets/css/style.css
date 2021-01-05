@@ -1294,9 +1294,7 @@ h6 a:hover {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(59, 85, 230, 0.9);
-}
+  height: 100%;}
 
 .newslater-section .section-header.style-two .title {
   margin: 0 0 10px;
