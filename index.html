@@ -243,7 +243,7 @@
         <div
           class="swiper-slide"
           style="
-            background: url(./assets/images/banner/banner2.jpeg) no-repeat;
+            background: url(./assets/images/banner/banner2.jpg) no-repeat;
             background-size: cover;
             background-position: center;
             cursor: pointer;
@@ -253,7 +253,7 @@
         <div
           class="swiper-slide"
           style="
-            background: url(./assets/images/banner/banner3.jpeg) no-repeat;
+            background: url(./assets/images/banner/banner3.jpg) no-repeat;
             background-size: cover;
             background-position: center;
             cursor: pointer;
@@ -640,6 +640,8 @@
         success(res) {
           let articleList = res.data;
           articleList.forEach((article, articleIndex) => {
+            var num = articleIndex === 1 ? 186 : articleIndex === 2 ? 112 : 135;
+            var sec = articleIndex === 1 ? "留学" : "就业";
             $("#article-list1").append(
               `
                     <div class="col-lg-4 col-md-6">
@@ -650,10 +652,15 @@
                         <div class="post-content">
                             <ul class="meta-post">
                                 <li>
-                                    <a href="/article.html?article_id=${article.article_id}"><i class="fas fa-user"></i>80+</a>
+                                    <a href="/article.html?article_id=${article.article_id}"><i class="fas fa-user"></i>
+                                      ` +
+                num +
+                `+</a>
                                 </li>
                                 <li>
-                                    <a href="/article.html?article_id=${article.article_id}"><i class="fas fa-tag"></i>优选</a>
+                                    <a href="/article.html?article_id=${article.article_id}"><i class="fas fa-tag"></i> ` +
+                sec +
+                `</a>
                                 </li>
                                 <li>
                                     <a href="/article.html?article_id=${article.article_id}"><i class="fas fa-calendar"></i>优选项目</a>
