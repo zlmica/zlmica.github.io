@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-    <title>友好之道 - 服务中心</title>
+    <title>友好之道 - 常见问题</title>
   </head>
   <style>
     .guides {
@@ -181,17 +181,13 @@
                 <a class="menu-item-link">服务中心</a>
                 <ul class="submenu">
                   <li class="menu-item">
-                    <a class="menu-item-link" href="/service-center.html"
-                      >常见问题</a
-                    >
+                    <a class="menu-item-link" href="/question.html">常见问题</a>
                   </li>
                   <li class="menu-item">
-                    <a class="menu-item-link" href="/service-center.html"
-                      >案例分享</a
-                    >
+                    <a class="menu-item-link" href="/cases.html">案例分享</a>
                   </li>
                   <li class="menu-item">
-                    <a class="menu-item-link" href="/service-center.html"
+                    <a class="menu-item-link" href="/cooperation.html"
                       >商务合作</a
                     >
                   </li>
@@ -249,7 +245,7 @@
       <div class="container">
         <div class="page-header-wrapper" style="min-height: 260px">
           <div class="page-header-item">
-            <h2 class="page-header-title">服务中心</h2>
+            <h2 class="page-header-title">常见问题</h2>
           </div>
         </div>
       </div>
@@ -258,10 +254,6 @@
     <!-- Tour Packages Section Starts Here -->
     <section class="contact-section padding-top padding-bottom">
       <div class="container">
-        <div class="section-header">
-          <h2 class="title">常见问题</h2>
-          <span class="shape"></span>
-        </div>
         <div class="branches-section-wrapper" style="padding-top: 0">
           <div class="row mb-30-none justify-content-center">
             <div class="col-lg-4 col-md-6">
@@ -339,86 +331,10 @@
             </div>
           </div>
         </div>
-        <div class="section-header">
-          <h2 class="title">商务合作</h2>
-          <span class="shape"></span>
-        </div>
-        <div class="contact-us-form">
-          <form action="#" class="comment-form" id="contact_form_submit">
-            <div class="row mb-30-none">
-              <div class="col-sm-6 form-group">
-                <input
-                  type="text"
-                  placeholder="请输入您的姓名"
-                  name="name"
-                  id="name"
-                />
-              </div>
-              <div class="col-sm-6 form-group">
-                <input
-                  type="text"
-                  placeholder="输入您的电话"
-                  name="phone"
-                  id="phone"
-                />
-              </div>
-              <div class="col-sm-12 form-group">
-                <textarea
-                  placeholder="请输入您的内容"
-                  name="content"
-                  id="content"
-                ></textarea>
-              </div>
-              <div class="col-sm-12 form-group">
-                <input
-                  type="button"
-                  style="
-                    width: auto;
-                    background-color: #3b55e6;
-                    padding: 0 45px;
-                    color: #fff;
-                  "
-                  onclick="save()"
-                  value="发送"
-                />
-              </div>
-            </div>
-          </form>
-        </div>
       </div>
     </section>
     <!-- Tour Packages Section Ends Here -->
-    <!-- Sponsor Section Starts Here -->
-    <div class="sponsor-section padding-bottom">
-      <div class="container">
-        <div class="sponsor-slider">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div
-                class="slide-item d-flex align-items-center justify-content-center"
-              >
-                <a><img src="assets/images/sponsor/01.png" alt="sponsor" /></a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="slide-item d-flex align-items-center justify-content-center"
-              >
-                <a><img src="assets/images/sponsor/02.png" alt="sponsor" /></a>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div
-                class="slide-item d-flex align-items-center justify-content-center"
-              >
-                <a><img src="assets/images/sponsor/03.png" alt="sponsor" /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Sponsor Section Ends Here -->
+
     <!-- Footer Section Starts Here -->
     <footer class="footer-section">
       <div class="footer-bottom align-items-center d-flex">
@@ -441,29 +357,5 @@
     <script src="assets/js/lightcase.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-      function save() {
-        let data = {
-          name: $("#name").val(),
-          phone: $("#phone").val(),
-          content: $("#content").val(),
-        };
-        console.log(data);
-        if (data.name && data.phone && data.content) {
-          $.ajax({
-            url:
-              "http://39.104.60.212:8088/index.php/api/article/commitTeamwork",
-            contentType: "application/json",
-            async: false,
-            data: data,
-            success(res) {
-              alert("提交成功，会有工作人员与您联系。");
-            },
-          });
-        } else {
-          alert("请将表单填写完整");
-        }
-      }
-    </script>
   </body>
 </html>
